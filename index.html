@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: rgb(255, 255, 255);
+        color: white;
+    }
+    header{
+        background-color: red;
+        padding: 20px;
+    }
+    .titulo{
+        font-size: 30px;
+        text-align: center;
+        margin: 10px;
+    }
+    .contenerdo{
+        margin: 40px;
+        width: 100%;
+        padding: 20px;
+        background-color: rgb(255, 185, 65);
+    }
+    .nom{
+        background-color: rgb(76, 0, 170);
+        color: white;
+        font-size: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+        text-shadow: 10px 10px rgb(0, 0, 0, 0.20);
+    }
+</style>
+<body>
+    <header>
+        <h1 class="titulo">DATOS PERSONALES</h1>
+    </header>
+    <div>
+        <script>
+        var nombre=prompt("cuá es tu nombre: ")
+        var ciudad=prompt("Cuál es la ciudad: ")
+        var fecha=prompt("ingresa tu fecha de nacimiento: ")
+        var edad=parseInt(prompt("ingresa tu edad: "))
+        document.write("<div class=nom>Bienvenid@: "+nombre+"</div>")
+        document.write("<div class=nom>Eres de: "+ciudad+"</div>")
+        document.write("<div class=nom>Tu cumpleaños es👌✨: "+fecha+"</div>")
+        document.write("<div class=nom>En 20 años tendras: "+(edad+20)+"</div>")
+    </script>
+    </div>
+</body>
+</html>
